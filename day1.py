@@ -21,7 +21,7 @@ try:
             else:
                 continue
 
-            zahl = number % 100
+            number = number % 100
             if number == 0:
                 count += 1
 
@@ -30,3 +30,4 @@ except FileNotFoundError:
 
 
 print(count)
+
